@@ -45,11 +45,11 @@ function Control() {
       <div style={styles.container}>
         <h3 style={styles.title}>INGRESA TU REGISTRO</h3>
         <div style={styles.buttonContainer}>
-          {mostrarEntrada ? (
+         
             <button style={styles.button} onClick={() => capturarFecha("ENTRADA")}>ENTRADA</button>
-          ) : (
+        
             <button style={styles.button} onClick={() => capturarFecha("SALIDA")}>SALIDA</button>
-          )}
+          
         </div>
       </div>
     </div>
